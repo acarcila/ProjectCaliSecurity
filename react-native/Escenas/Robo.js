@@ -108,8 +108,8 @@ const Robo = (props) => {
                     return (
                         <Marker
                             coordinate={element.ubicacion}
-                            title={element.urgencia}
-                            description={`${element.fecha} ${element.hora}`}
+                            title={`urgencia: ${element.urgencia}`}
+                            description={`fecha: ${element.fecha} ${element.hora}`}
                             key={i}
                         />);
                 })}
